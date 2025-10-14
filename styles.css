@@ -364,6 +364,7 @@ body {
   width: 300px;
   scroll-snap-align: center;
   text-align: center;
+  position: relative;
 }
 
 .gallery-item img {
@@ -378,6 +379,14 @@ body {
 .gallery-item img:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-item-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: scale(0.5) !important;
+	box-shadow: none !important;
 }
 
 .caption {

@@ -383,9 +383,23 @@ body {
 
 .gallery-item-overlay {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: -85px;
+	left: -70px;
 	transform: scale(0.5) !important;
+	box-shadow: none !important;
+}
+.gallery-item-overlay2 {
+	position: absolute;
+	top: -85px;
+	left: 70px;
+	transform: scale(.2) !important;
+	box-shadow: none !important;
+}
+.gallery-item-overlay3 {
+	position: absolute;
+	top: -55px;
+	left: 90px;
+	transform: scale(.3) !important;
 	box-shadow: none !important;
 }
 
